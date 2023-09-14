@@ -49,8 +49,8 @@ public class E01Leetcode206 {
         List<Integer> list = new ArrayList<>();
         //Mp<Integer,Integer> map=new HashMap<>();
         //test88
-        new int[];
-        //1
+        int a;
+
         for (Integer integer : list) {
             return;
         }
