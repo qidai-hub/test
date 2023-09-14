@@ -50,6 +50,7 @@ public class E01Leetcode206 {
         //Mp<Integer,Integer> map=new HashMap<>();
         //test88
         new int[];
+        //1
         for (Integer integer : list) {
             return;
         }
