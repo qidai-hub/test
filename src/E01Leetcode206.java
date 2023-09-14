@@ -44,7 +44,7 @@ public class E01Leetcode206 {
 
 
     public static void main(String[] args) {
-        E01Leetcode206 e01Leetcode206 = new E01Leetcode206();
+        E01Leetcode206 e01Leetcode206 = new E01Leetcode206();//
         Deque<TreeNode> deque = new LinkedList<>();
         List<Integer> list = new ArrayList<>();
         //Mp<Integer,Integer> map=new HashMap<>();
