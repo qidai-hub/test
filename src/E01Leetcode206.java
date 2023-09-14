@@ -48,9 +48,10 @@ public class E01Leetcode206 {
         Deque<TreeNode> deque = new LinkedList<>();
         List<Integer> list = new ArrayList<>();
         //Mp<Integer,Integer> map=new HashMap<>();
-
+        //test
+        new int[];
         for (Integer integer : list) {
-            
+            return;
         }
         e01Leetcode206.simplifyPath("/a/./b/../../c/");
 
