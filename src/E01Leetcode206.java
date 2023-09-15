@@ -36,6 +36,7 @@ public class E01Leetcode206 {
     }
 
     public static class TreeNode {
+
         int val;
         TreeNode left;
         TreeNode right;
