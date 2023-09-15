@@ -35,6 +35,21 @@ public class E01Leetcode206 {
         return sb.toString();
     }
 
+    public static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {
+        }
+        TreeNode(int val) {
+            this.val = val;
+        }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 
 
 
@@ -47,13 +62,11 @@ public class E01Leetcode206 {
         E01Leetcode206 e01Leetcode206 = new E01Leetcode206();//
         Deque<TreeNode> deque = new LinkedList<>();
         List<Integer> list = new ArrayList<>();
-        //Mp<Integer,Integer> map=new HashMap<>();
-        //test88
-        int a;//
+        TreeNode treeNode = new TreeNode(1,new TreeNode(2,null,new TreeNode(3,null,null)),new TreeNode(2,null,new TreeNode(3,null,null)));
+        TreeNode treeNode1 = new TreeNode();
+        System.out.println(treeNode==treeNode1);
 
-        for (Integer integer : list) {
-            return;
-        }
+
         e01Leetcode206.simplifyPath("/a/./b/../../c/");
 
 
